@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bosekran">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-35dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="90dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="Barinaklar"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <!-- Container 1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/doground2" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:text=" Macunköy Animal Shelter "
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar2"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/text1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="6dp"
+                    android:numStars="5"
+                    android:rating="3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/additionalText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/image1"
+                    android:paddingLeft="10dp"
+                    android:text="Macun Mah Batı Blv, 250. Cadde No:2 " />
+
+            </RelativeLayout>
+            >
+            <!-- Container 2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/doground2" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:text=" Hayvan Barınağı"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar1"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/text2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="6dp"
+                    android:numStars="5"
+                    android:rating="3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/additionalText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text2"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/image2"
+                    android:paddingLeft="10dp"
+                    android:text="Etimesgut/Ankara, Türkiye " />
+
+            </RelativeLayout>
+            <!--Cont 3-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/doground2" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:text=" Şanslı barınak ek binası "
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar3"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/text3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="6dp"
+                    android:numStars="5"
+                    android:rating="3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/additionalText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text3"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/image3"
+                    android:paddingLeft="10dp"
+                    android:text="Çankaya/Ankaraç, Türkiye" />
+
+            </RelativeLayout>
+            >>
+            <!--Cont 4-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/doground2" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:text=" Gölbaşı Animal Shelter"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar4"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/text4"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="6dp"
+                    android:numStars="5"
+                    android:rating="3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/additionalText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text4"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/image4"
+                    android:paddingLeft="10dp"
+                    android:text="Gölbaşı/Ankara, Türkiye" />
+
+            </RelativeLayout>
+            <!--Cont 6-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/doground2" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:text=" Güvenli Sahiplendirme"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar6"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/text6"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="6dp"
+                    android:numStars="5"
+                    android:rating="3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/additionalText6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text6"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/image6"
+                    android:paddingLeft="10dp"
+                    android:text="Çankaya/Ankara, Türkiye" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

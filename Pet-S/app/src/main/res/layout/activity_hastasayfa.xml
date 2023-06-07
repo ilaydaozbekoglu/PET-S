@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hastasayfa">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/girisekran"
+        tools:context=".veterinerGiris"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <Button
+            android:id="@+id/hastabilgiler"
+            android:layout_width="246dp"
+            android:layout_height="69dp"
+            android:backgroundTint="#FF9800"
+            android:fontFamily="sans-serif-black"
+
+            android:text="Hasta Bilgileri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.483" />
+
+        <Button
+            android:id="@+id/hastabildirimler"
+            android:layout_width="246dp"
+            android:layout_height="69dp"
+            android:backgroundTint="#FF9800"
+            android:fontFamily="sans-serif-black"
+
+            android:text="Bildirimleri Görüntüle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.745" />
+
+        <Button
+            android:id="@+id/hastaveteriner"
+            android:layout_width="246dp"
+            android:layout_height="69dp"
+            android:backgroundTint="#FF9800"
+            android:fontFamily="sans-serif-black"
+
+            android:text="Veteriner Bilgileri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.61" />
+
+        <TextView
+            android:id="@+id/VeterinerEkran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="HASTA EKRANI"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

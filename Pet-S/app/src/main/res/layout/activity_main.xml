@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anaekran"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_hasta"
+        android:layout_width="246dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-black"
+        android:onClick="hasta"
+        android:text="Hasta Girişi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <Button
+        android:id="@+id/btn_vet"
+        android:layout_width="248dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Veteriner Girişi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/btn_vetolustur"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF9800"
+        android:text="Veteriner Hesabı Oluştur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <Button
+        android:id="@+id/btn_barinak"
+        android:layout_width="134dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Barınaklar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
